@@ -261,3 +261,7 @@ a { overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Counteract the old negative offset on the January diary heading. */
+.whatBody #day11 { margin-top: 1.8rem; }
+.whatBody .mousePara, .whatBody .micePara { margin: .5rem 0 !important; }
